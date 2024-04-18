@@ -33,7 +33,7 @@ def score_game(random_predict) -> int:
         int: среднее количество попыток
     """
     
-    ###count_ls = []#список для сохранения угадывания
+    count_ls = []#список для сохранения угадывания
     np.random.seed(1)#фиксируем сид для воспроизводимости
     random_array = np.random.randint(1,101, size=(1000)) #загадали список чисел
     
