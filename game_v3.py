@@ -21,3 +21,4 @@ def random_predict(number:int=1) -> int:
 
 print(f'Количество попыток: {random_predict()}')
 print('hello word')
+print('xtge[jdbx]')
